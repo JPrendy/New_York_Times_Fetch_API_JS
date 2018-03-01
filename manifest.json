@@ -1,0 +1,15 @@
+{
+  "name": "New York Times FETCH API TEST",
+  "short_name": "NYT_API",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "A test using New York Times API to display the latest movie reviews",
+  "lang": "en-US",
+  "theme_color": "#ff0000",
+    "icons": [{
+   "src": "images/NYT.png",
+   "sizes": "512x512",
+   "type": "image/png"
+ }]
+  }

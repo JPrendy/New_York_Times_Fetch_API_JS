@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NYT Fetch API</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="fetch.js"></script>
+    <link rel="icon" href="images/NYT.png">
+
+
+</head>
+
+<body>
+
+
+    <div class="container">
+        <h2>
+            <center>Search New York Times Articles</center>
+        </h2>
+
+        <div class="form-group">
+            <label for="email">Add the type of articles you want to look for</label>
+            <input type="text" class="form-control" id="searchinput">
+        </div>
+
+
+        <button onclick="any()" class="btn btn-primary">Search</button>
+
+        <button onclick="previouspage()" class="btn btn-secondary">Back</button>
+        <button onclick="nextpage()" class="btn btn-secondary">Next</button>
+    </div>
+    <br/>
+
+
+
+    <div id="results"></div>
+
+
+</body>
+
+</html>
